@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" ></script>
+    
+</head>
+<body>
+    
+<div id="header" >    
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i> <!--X cross icon-->
+            </ul>
+            <i class='fas fa-bars' onclick="openmenu()"></i> <!----Burger Menu bar---->
+        </nav>
+        <audio  autoplay src="gta4theme.mp4" id="audio"></audio>
+        <div class="header-text">
+            <h3>Web Designer</h3> 
+            <h1>Hi, I'm <span>Kashif</span><br> from Pakistan</h1>
+            <h4>And I'm a <span class="multiple-text" ></span></h4>
+        </div>
+    </div>
+</div>
+<!-----------------ABOUT----------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="pictouse.png" >
+            </div>
+            <div class="about-col-2">
+                 <h1 class="sub-title">About me</h1>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, voluptatibus eius doloribus, alias cupiditate ducimus inventore nesciunt hic sunt nihil iste. Inventore doloremque rerum enim dignissimos quos ea omnis ad!</p>
+                
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web Apps</li>
+                        <li><span>Web Development</span><br>Developing Web Apps</li>
+                        <li><span>Freelance</span><br>Freelancing on Online Platforms</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-Current</span><br>what so ever Experience</li>
+                        <li><span>2020-2022</span><br>what so ever Experience</li>
+                        <li><span>2019-2020</span><br>what so ever Experience</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2025</span><br>Bachelors in Computer Science</li>
+                        <li><span>2019-2020</span><br>Intermediate College</li>
+                        <li><span>2017-2018</span><br>Matriculation</li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------SERVICES------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class='bx bx-code-alt'></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id rem, pariatur voluptatum sunt eligendi quis praesentium. Voluptates vel ea, possimus alias non, vitae, illum culpa tenetur magnam dicta atque praesentium?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class='bx bx-edit'></i>
+                <h2>UX/UI Designer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id rem, pariatur voluptatum sunt eligendi quis praesentium. Voluptates vel ea, possimus alias non, vitae, illum culpa tenetur magnam dicta atque praesentium?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class='bx bx-laptop'></i>
+                <h2>Freelancer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id rem, pariatur voluptatum sunt eligendi quis praesentium. Voluptates vel ea, possimus alias non, vitae, illum culpa tenetur magnam dicta atque praesentium?</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------PORTFOLIO-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Shopping Website</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur recusandae rem distinctio minus voluptatum id vel itaque. Est reiciendis, illo perferendis delectus laboriosam hic adipisci architecto atque. Et, voluptatem? Est!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Web Designs</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur recusandae rem distinctio minus voluptatum id vel itaque. Est reiciendis, illo perferendis delectus laboriosam hic adipisci architecto atque. Et, voluptatem? Est!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Projects</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur recusandae rem distinctio minus voluptatum id vel itaque. Est reiciendis, illo perferendis delectus laboriosam hic adipisci architecto atque. Et, voluptatem? Est!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------CONTACT ME------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class='bx bx-envelope'></i>ikashifahmed786@gmail.com</p>
+                <p><i class='bx bxs-phone' ></i>Not Availabe</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Kashif-ahmed64"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/kashif-ahmed-664587247/"><i class='bx bxl-linkedin'></i></a>
+                </div>
+                <a href="CV.pdf" download="" class="btn DCVbtn">Download CV</a>
+            </div> 
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn DCVbtn">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class='bx bx-copyright' ></i> Kashif Ahmed.</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<!--On click Functionality for Menu BAR-->
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<!---GOOGLE SPREADSHEET FORM SCRIPT-->
+
+<script>
+    const scriptURL = 'URL' //Copy/Paste here spreadsheet URL (Deployment section provides it)
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+  <script src="script.js"> </script>
+
+</body>
+</html>
+
+
